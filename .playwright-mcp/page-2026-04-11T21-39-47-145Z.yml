@@ -1,0 +1,199 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link "Pular para o conteúdo" [ref=e5] [cursor=pointer]:
+          - /url: "#root-app"
+          - generic [ref=e6]: Pular para o conteúdo
+        - link "Comentar sobre acessibilidade" [ref=e7] [cursor=pointer]:
+          - /url: https://www.mercadolivre.com.br/acessibilidade/feedback
+          - generic [ref=e8]: Comentar sobre acessibilidade
+        - link "Mercado Livre Brasil - Onde comprar e vender de Tudo" [ref=e9] [cursor=pointer]:
+          - /url: //www.mercadolivre.com.br
+      - search [ref=e11]:
+        - generic [ref=e12]: Digite o que você quer encontrar
+        - combobox "Digite o que você quer encontrar" [ref=e13]
+        - button "Buscar" [ref=e14] [cursor=pointer]:
+          - img "Buscar" [ref=e15]: 
+        - text: Lojas oficiais
+      - link "Meli+. Cashback com cartão de crédito Mercado Pago. Planos a partir de R$9,90 por mês." [ref=e17] [cursor=pointer]:
+        - /url: https://www.mercadolivre.com.br/assinaturas/melimais#origin=bannermenu-acq-cashback&me.audience=all&me.bu=3&me.bu_line=26&me.component_id=banner_menu_web_ml&me.content_id=BM_SOV_LOYALTY_ACQ_MELIMAISCASHBACK_3103&me.flow=-1&me.logic=user_journey&me.position=0
+        - img "Meli+. Cashback com cartão de crédito Mercado Pago. Planos a partir de R$9,90 por mês." [ref=e18]
+      - button " Digite seu endereço" [ref=e21] [cursor=pointer]:
+        - text: 
+        - generic [ref=e22]: Digite seu endereço
+      - list [ref=e25]:
+        - listitem [ref=e26]:
+          - button "Categorias" [ref=e27] [cursor=pointer]
+        - listitem [ref=e28]:
+          - link "Ofertas" [ref=e29] [cursor=pointer]:
+            - /url: https://www.mercadolivre.com.br/ofertas#nav-header
+        - listitem [ref=e30]:
+          - link "Cupons" [ref=e31] [cursor=pointer]:
+            - /url: https://www.mercadolivre.com.br/cupons?source_page=mperfil#nav-header
+        - listitem [ref=e32]:
+          - link "Supermercado" [ref=e33] [cursor=pointer]:
+            - /url: https://www.mercadolivre.com.br/ofertas/supermercado#nav-header
+        - listitem [ref=e34]:
+          - link "Moda" [ref=e35] [cursor=pointer]:
+            - /url: https://www.mercadolivre.com.br/c/calcados-roupas-e-bolsas#nav-header
+        - listitem [ref=e36]:
+          - link "Mercado Play Grátis" [ref=e37] [cursor=pointer]:
+            - /url: https://play.mercadolivre.com.br/?origin=navigation_menu_web#nav-header
+            - text: Mercado Play
+            - generic [ref=e38]: Grátis
+        - listitem [ref=e39]:
+          - link "Vender" [ref=e40] [cursor=pointer]:
+            - /url: https://www.mercadolivre.com.br/syi/core/list#nav-header
+        - listitem [ref=e41]:
+          - link "Contato" [ref=e42] [cursor=pointer]:
+            - /url: https://www.mercadolivre.com.br/ajuda#nav-header
+      - generic [ref=e43]:
+        - navigation "Menu do usuário" [ref=e44]:
+          - list [ref=e45]:
+            - listitem [ref=e46]:
+              - button "Robert, menu" [ref=e49] [cursor=pointer]:
+                - generic [ref=e50]:
+                  - img [ref=e52]
+                  - generic [ref=e53]: Robert
+            - listitem [ref=e55]:
+              - link "Compras" [ref=e56] [cursor=pointer]:
+                - /url: https://myaccount.mercadolivre.com.br/purchases/list#nav-header
+              - button "Favoritos" [ref=e57] [cursor=pointer]:
+                - generic [ref=e58]: Favoritos
+              - button "Notificações 1 nova" [ref=e59] [cursor=pointer]:
+                - generic [ref=e60]: 
+                - generic [ref=e61]: "1"
+            - listitem
+        - link "0 produtos em seu carrinho" [ref=e62] [cursor=pointer]:
+          - /url: https://www.mercadolivre.com.br/gz/cart/v2
+          - generic [ref=e63]: 
+          - generic [ref=e64]: 0 produtos em seu carrinho
+  - main [ref=e65]:
+    - generic [ref=e66]:
+      - navigation [ref=e68]:
+        - generic [ref=e70]:
+          - paragraph [ref=e79]: Minha conta
+          - list [ref=e80]:
+            - listitem [ref=e81]:
+              - button "Compras" [ref=e82]:
+                - generic [ref=e83]:
+                  - img [ref=e86]
+                  - generic [ref=e89] [cursor=pointer]: Compras
+            - listitem [ref=e90]:
+              - button "Vendas" [ref=e91]:
+                - generic [ref=e92]:
+                  - img [ref=e95]
+                  - generic [ref=e98] [cursor=pointer]: Vendas
+            - listitem [ref=e99]:
+              - button "Marketing" [ref=e100]:
+                - generic [ref=e101]:
+                  - img [ref=e104]
+                  - generic [ref=e110] [cursor=pointer]: Marketing
+            - listitem [ref=e111]:
+              - link "Empréstimos" [ref=e113] [cursor=pointer]:
+                - /url: https://www.mercadolivre.com.br/credits/hub?sk=dwqpWPas#from=panel_nav_ml&additional_info=side_menu
+                - img [ref=e116]
+                - paragraph [ref=e121]: Empréstimos
+            - listitem [ref=e122]:
+              - link "Assinaturas" [ref=e124] [cursor=pointer]:
+                - /url: https://www.mercadolivre.com.br/assinaturas/#left-nav
+                - img [ref=e127]
+                - paragraph [ref=e131]: Assinaturas
+            - listitem [ref=e132]:
+              - button "Faturamento" [ref=e133]:
+                - generic [ref=e134]:
+                  - img [ref=e137]
+                  - generic [ref=e139] [cursor=pointer]: Faturamento
+            - listitem [ref=e140]:
+              - link "Meu perfil" [ref=e142] [cursor=pointer]:
+                - /url: https://www.mercadolivre.com.br/pampa/profile
+                - img [ref=e145]
+                - paragraph [ref=e149]: Meu perfil
+            - listitem [ref=e150]:
+              - button "Afiliados e criadores" [ref=e151]:
+                - generic [ref=e152]:
+                  - img [ref=e155]
+                  - generic [ref=e157] [cursor=pointer]: Afiliados e criadores
+            - listitem [ref=e158]:
+              - button "Configurações" [ref=e159]:
+                - generic [ref=e160]:
+                  - img [ref=e163]
+                  - generic [ref=e166] [cursor=pointer]: Configurações
+      - generic [ref=e170]:
+        - generic [ref=e172]:
+          - navigation "Lista de páginas" [ref=e173]:
+            - list [ref=e174]:
+              - listitem [ref=e175]:
+                - link "Central de afiliados e criadores" [ref=e176] [cursor=pointer]:
+                  - /url: /afiliados/hub
+                - img [ref=e178]
+              - listitem [ref=e180]:
+                - generic [ref=e181]: Gerador de produtos recomendados
+          - generic [ref=e182]:
+            - generic [ref=e183]:
+              - heading "Gerador de produtos recomendados" [level=1] [ref=e184]
+              - link "Preciso de ajuda" [ref=e186] [cursor=pointer]:
+                - /url: https://www.mercadolivre.com.br/ajuda/32979
+            - generic [ref=e187]: As pessoas que acessarem seus links podem encontrar o produto recomendado no seu perfil social.
+        - generic [ref=e192]:
+          - generic [ref=e194]:
+            - article [ref=e195]:
+              - generic [ref=e196]:
+                - generic [ref=e198]: Insira 1 ou mais URLs separados por 1 linha
+                - textbox "Insira 1 ou mais URLs separados por 1 linha" [ref=e200]:
+                  - /placeholder: "Ex: https://www.mercadolivre.com.br/_Desde_49_Deal_afiliados-fashion_NoIndex_True"
+                - generic [ref=e203]: Insira 1 ou mais URLs das páginas de produtos que você quer divulgar.
+            - generic [ref=e204]:
+              - generic [ref=e205]:
+                - generic [ref=e206]:
+                  - generic [ref=e207]: "Etiqueta em uso:"
+                  - generic "Más información" [ref=e208] [cursor=pointer]:
+                    - img [ref=e211]
+                - combobox "Selecione sua etiqueta" [ref=e221]:
+                  - generic [ref=e222]:
+                    - generic [ref=e223]: rm20250209133551
+                    - img [ref=e225]
+              - button "Gerar" [disabled]:
+                - generic: Gerar
+          - article [ref=e228]:
+            - img [ref=e229]
+            - generic [ref=e230]: Aqui você encontra os links que pode compartilhar nas suas redes sociais.
+  - generic:
+    - heading "Mais informações " [level=2]:
+      - button "Mais informações " [ref=e231] [cursor=pointer]:
+        - text: Mais informações
+        - generic [ref=e232]: 
+  - contentinfo [ref=e233]:
+    - generic [ref=e235]:
+      - generic [ref=e236]:
+        - generic [ref=e237]: Copyright © 1999-2026 Ebazar.com.br LTDA.
+        - navigation [ref=e238]:
+          - list [ref=e239]:
+            - listitem [ref=e240]:
+              - link "Trabalhe conosco" [ref=e241] [cursor=pointer]:
+                - /url: https://careers-meli.mercadolibre.com/pt?utm_campaign=site-mlb&utm_source=mercadolibre&utm_medium=mercadolibre
+            - listitem [ref=e242]:
+              - link "Termos e condições" [ref=e243] [cursor=pointer]:
+                - /url: https://www.mercadolivre.com.br/ajuda/991
+            - listitem [ref=e244]:
+              - link "Promoções" [ref=e245] [cursor=pointer]:
+                - /url: https://www.mercadolivre.com.br/l/promocoes
+            - listitem [ref=e246]:
+              - link "Como cuidamos da sua privacidade" [ref=e247] [cursor=pointer]:
+                - /url: https://www.mercadolivre.com.br/privacidade
+            - listitem [ref=e248]:
+              - link "Acessibilidade" [ref=e249] [cursor=pointer]:
+                - /url: https://www.mercadolivre.com.br/acessibilidade
+            - listitem [ref=e250]:
+              - link "Contato" [ref=e251] [cursor=pointer]:
+                - /url: https://www.mercadolivre.com.br/ajuda
+            - listitem [ref=e252]:
+              - link "Informações sobre seguros" [ref=e253] [cursor=pointer]:
+                - /url: https://www.mercadolivre.com.br/ajuda/23303
+            - listitem [ref=e254]:
+              - link "Programa de Afiliados" [ref=e255] [cursor=pointer]:
+                - /url: https://www.mercadolivre.com.br/l/afiliados-home
+      - paragraph [ref=e256]: CNPJ n.º 03.007.331/0001-41 / Av. das Nações Unidas, nº 3.003, Bonfim, Osasco/SP - CEP 06233-903 - empresa do grupo Mercado Livre.
+    - link "Mercado Livre" [ref=e257] [cursor=pointer]:
+      - /url: https://hp.mercadolibre.com/?p=ML&s=MLB&d=desktop

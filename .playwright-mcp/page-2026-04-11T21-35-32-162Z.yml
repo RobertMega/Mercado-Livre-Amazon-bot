@@ -1,0 +1,67 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Pular para o conteúdo" [ref=e4] [cursor=pointer]:
+        - /url: "#root-app"
+        - generic [ref=e5]: Pular para o conteúdo
+      - link "Comentar sobre acessibilidade" [ref=e6] [cursor=pointer]:
+        - /url: https://www.mercadolivre.com.br/acessibilidade/feedback
+        - generic [ref=e7]: Comentar sobre acessibilidade
+      - link "Mercado Livre Brasil - Onde comprar e vender de Tudo" [ref=e8] [cursor=pointer]:
+        - /url: //www.mercadolivre.com.br
+  - main [ref=e9]:
+    - generic [ref=e10]:
+      - generic [ref=e12]:
+        - heading "Digite seu e-mail ou telefone para iniciar sessão" [level=1] [ref=e14]
+        - generic [ref=e16]:
+          - list [ref=e17]:
+            - listitem [ref=e18] [cursor=pointer]:
+              - link "Tenho um problema de segurança" [ref=e19]:
+                - /url: https://www.mercadolivre.com.br/ato-complaint/classifier?origin=LOGIN_IDENTIFICATION_WEB
+              - generic [ref=e20]:
+                - img [ref=e22]
+                - generic [ref=e27]: Tenho um problema de segurança
+              - img [ref=e30]
+          - link "Preciso de ajuda" [ref=e32] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e35]:
+          - generic [ref=e37]:
+            - generic [ref=e40]:
+              - generic [ref=e42]: E-mail ou telefone
+              - textbox "E-mail ou telefone" [active] [ref=e44]:
+                - /placeholder: ""
+              - generic:
+                - generic:
+                  - generic:
+                    - alert
+            - generic [ref=e45]:
+              - button "Continuar" [ref=e46] [cursor=pointer]:
+                - generic [ref=e47]: Continuar
+              - link "Criar conta" [ref=e48] [cursor=pointer]:
+                - /url: https://registration.mercadolivre.com.br/registration?confirmation_url=https%3A%2F%2Fwww.mercadolivre.com.br%2Fafiliados
+                - generic [ref=e49]: Criar conta
+              - generic [ref=e50]:
+                - separator [ref=e51]
+                - paragraph [ref=e52]: ou
+                - separator [ref=e53]
+              - iframe [ref=e57]:
+                - button "Fazer Login com o Google. Abre em uma nova guia" [ref=f1e3] [cursor=pointer]:
+                  - generic [ref=f1e5]:
+                    - img [ref=f1e7]
+                    - generic [ref=f1e14]: Fazer Login com o Google
+          - generic [ref=e58]:
+            - img [ref=e61]
+            - status [ref=e64]
+      - generic [ref=e65]:
+        - generic [ref=e66]:
+          - link "Como cuidamos da sua privacidade (abrirá uma nova janela)" [ref=e67] [cursor=pointer]:
+            - /url: https://www.mercadolivre.com.br/privacidade
+            - text: Como cuidamos da sua privacidade
+            - generic [ref=e68]: (abrirá uma nova janela)
+          - generic [ref=e69]: "-Copyright © 1999-2026 Ebazar.com.br LTDA."
+        - generic [ref=e70]:
+          - text: Protegido por reCAPTCHA
+          - link "-Privacidade" [ref=e71] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=pt-BR
+          - link "-Condições" [ref=e72] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=pt-BR
